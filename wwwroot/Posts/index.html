@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/loading.css">
+
+</head>
+
+<body>
+
+    <div id="main">
+        <div class="header flex-col space flex-center" id="header">
+            <div id="news"><i class="fa-solid fa-newspaper icon-big pointer"></i></div>
+            <div class="search-bar-container flex-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="search-bar" placeholder="Recherche.....">
+            </div>
+
+            <div class="flex-col gap icon-container">
+                <i class="fa-solid fa-plus icon-sm pointer" id="plus"></i>
+                <i class="fa-solid fa-close icon-sm pointer" id="close" style="display: none;"></i>
+                <div>
+                    <i class="fa-solid fa-ellipsis-vertical icon-sm pointer drop-container" id="options"></i>
+                    <div id="drop-down">
+                        <div style="padding: .5em; border-bottom: .5px solid black"class="pointer" value="*">Toutes les catégories</div>
+
+                        <div class="drop-content font">
+                            <div >alol</div>
+                            <div>alo2l</div>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <div id="content">
+
+
+            <div id="scroll-panel" class="flex-row flex-center gap-big">
+
+                <!-- <div class="post-container flex-row gap-sm">
+                    <div class="post-head flex-col space">
+                        <div class="font">Sample</div>
+                        <div><i class="fa fa-pencil-square pointer icon-sm hover-icon"></i> <i
+                                class="fa fa-window-close pointer icon-sm hover-icon"></i></div>
+                    </div>
+                    <div class="post-header font">TITRE</div>
+                    <div class="post-banner">
+                        <img src="">
+                        <div class="font">${date}</div>
+                    </div>
+                    <div class="post-text">
+                        <div class="font txt">Le badminton est un sport de raquette rapide et dynamique qui se pratique principalement en intérieur, bien qu’il puisse aussi se jouer à l’extérieur sur des terrains spécialement aménagés. Il se joue en simple (un joueur contre un autre) ou en double (deux joueurs contre deux autres), et l’objectif est de renvoyer un volant au-dessus d’un filet, de manière à ce qu’il touche le sol du côté adverse.\r\n\r\nCe sport se distingue par sa rapidité et la finesse de ses échanges. Le volant, souvent constitué de plumes ou de plastique, est léger et possède une trajectoire particulière qui le fait ralentir rapidement. Ainsi, un échange peut se dérouler en quelques secondes, demandant aux joueurs une grande réactivité et une excellente condition physique. La maîtrise des coups techniques est essentielle : le \"clear\", le \"drop\" et le \"smash\" sont des frappes couramment utilisées pour varier le jeu et prendre l’avantage.\r\n\r\nLe badminton demande une excellente coordination œil-main et un sens tactique développé. Les joueurs doivent non seulement être capables d’anticiper les mouvements de l’adversaire, mais aussi de placer leurs coups de manière stratégique, en jouant avec les angles et la vitesse. La condition physique est également cruciale, car les déplacements sur le terrain doivent être rapides, avec des changements de direction fréquents.\r\n\r\nPratiqué à la fois à un niveau amateur et professionnel, le badminton est également un sport accessible à tous. Il ne nécessite que peu de matériel (une raquette et un volant) et peut être joué dans des cadres variés, en loisir comme en compétition. Aux Jeux Olympiques et lors de nombreux tournois internationaux, le badminton est un sport de haut niveau qui séduit par son mélange de technique, de stratégie et d'intensité</div>
+                        <div class="more pointer font"> Plus...</div>
+                    </div>
+                </div> -->
+                <!-- <div class="post-container flex-row gap-sm">
+                    <div class="post-head flex-col space">
+                        <div>Santé</div>
+                        <div><i class="fa fa-pencil-square pointer icon-sm hover-icon"></i> <i
+                                class="fa fa-window-close pointer icon-sm hover-icon"></i></div>
+
+                    </div>
+                    <div class="post-header"> L'Alberat s'apprete a regulariser des therapies assistees par des
+                        hallucinogenes
+                    </div>
+                </div> -->
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="js/API.js"></script>
+<script src="js/UI.js"></script>
+<script src="js/image.js"></script>
+<script src="js/utilities.js"></script>
+<script src="js/PageManager.js"></script>
